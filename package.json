@@ -12,6 +12,7 @@
   "license": "ISC",
   "dependencies": {
     "@faker-js/faker": "^7.6.0",
+    "mapbox-gl": "^2.11.1",
     "parcel": "latest"
   }
 }
