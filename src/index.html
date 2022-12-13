@@ -10,10 +10,15 @@
     <title>My First Parcel App</title>
   </head>
   <body>
-    <div id="root">
-      <h1>Hello, World!</h1>
-      <section id="user"></section>
-      <section id="map-container"></section>
+    <div id="root" class="relativee w-screen h-screen">
+      <header id="header">
+        <h1>Hello, World!</h1>
+        <section id="user"></section>
+      </header>
+      <section
+        id="map-container"
+        class="absolute w-screen h-screen top-0"
+      ></section>
     </div>
 
     <script src="js/main.js" type="module" defer></script>
